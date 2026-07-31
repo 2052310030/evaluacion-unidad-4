@@ -1,0 +1,18 @@
+Resultado de verificación del proyecto
+Fecha: 31 de julio de 2026
+
+Pruebas ejecutadas con pytest:
+
+- test_registrar_servicio_correctamente: PASSED
+- test_rechazar_costo_negativo: PASSED
+- test_rechazar_costo_no_numerico: PASSED
+- test_rechazar_campos_vacios: PASSED
+- test_rechazar_servicio_duplicado: PASSED
+- test_actualizar_servicio: PASSED
+- test_eliminar_servicio: PASSED
+
+Resultado: 7 pruebas aprobadas.
+
+También se verificó la sintaxis de todos los archivos de Python con compileall.
+La conexión final con MySQL debe comprobarse en el equipo donde se ejecute XAMPP,
+después de importar CRUD/db_taller.sql.
